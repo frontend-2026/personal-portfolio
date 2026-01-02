@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;       
+  padding: 0; 
+  background-color: beige; 
+  overflow: hidden;    
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid black;
+}
+
+.page-content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middle-content {
+
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.section-div{
+  border: 2px solid black;
+  
+  padding: 5px;
+}
+
+.review-div{
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  max-width: 200px;
+}
+
+h2{
+  padding: 15px;
+}
